@@ -25,7 +25,7 @@ pubs:
         url: https://proceedings.neurips.cc/paper_files/paper/2023/file/2349293cb1bf2ce36d5c566f660f957e-Paper-Conference.pdf
 
     journal: "Poster Presentation"
-    selected_order: 1
+    selected_order: 2
     year: 2023
     topic:
 
@@ -41,7 +41,7 @@ pubs:
         url: https://proceedings.neurips.cc/paper_files/paper/2023/file/2349293cb1bf2ce36d5c566f660f957e-Paper-Conference.pdf
 
     journal: "Poster Presentation"
-    selected_order: 1
+    selected_order: 3
     year: 2023
     topic:
 
@@ -57,7 +57,7 @@ pubs:
         url: https://link.springer.com/chapter/10.1007/978-981-99-8552-4_12
 
     journal: "Poster Presentation"
-    selected_order: 2
+    selected_order: 4
     year: 2023
     topic:
 
