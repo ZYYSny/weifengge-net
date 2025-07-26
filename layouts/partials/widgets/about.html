@@ -18,7 +18,7 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 <div class="row">
-  <div class="col-12 col-md-2">
+  <div class="col-12 col-md-3">
     <div id="profile">
 
       {{ $avatar_image := $avatar.Fill "200x200 Center" }}
@@ -32,15 +32,15 @@
       <h1>{{ site.Title }}</h1>
 
 
-      {{ with $person.role }}<h3><span>{{ . | markdownify | emojify }}</span></h3>{{ end }}
+      {{ with $person.role }}<div><span>{{ . | markdownify | emojify }}</span></div>{{ end }}
 
 
       {{ range $person.organizations }}
-      <h3>
+      <div>
         {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
         <span>{{ .name }}</span>
         {{ if .url }}</a>{{ end }}
-      </h3>
+      </div>
       {{ end }}
 
       <div>Email: {{ $person.email_text }}</div>
@@ -59,7 +59,7 @@
     </div>
 
   </div>
-  <div class="col-12 col-md-6">
+  <div class="col-12 col-md-5">
     <div class="text topic">
       <p>
       </p><div class="title">{{ $person.research_topics_title }}</div>

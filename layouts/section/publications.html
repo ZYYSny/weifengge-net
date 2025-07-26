@@ -50,11 +50,15 @@
             <div class="col-12"  :id="getTopicAnchor(item)" >
               <div class="group-topic-name" >${showTopicName(item)}</div>
             </div>
+
+
+            {{/*no images
             <div class="col-12 col-md-3 img">
                <img class="img_responsive" :src="item.image" >
             </div>
-
-            <div class="text col-12 col-md-9">
+            */}}
+            <div class="col-1 item-index">${index + 1}.</div>
+            <div class="text col-11">
               <div class="title">
                 <a  :href="item.title_link">
                   ${item.title}
